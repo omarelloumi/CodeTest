@@ -1,0 +1,57 @@
+h5{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFEFE;
+}
+
+.price{
+    width: 71px;
+    height: 65px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.taxes{
+    font-family: 'Manrope';
+    color: #FFFFFF;
+    line-height: 5px;
+    font-size: 10px;
+    text-align: right;
+}
+
+.aLeft{
+    position: absolute;
+    width: 37px;
+    height: 14px;
+    left: 19%;
+    top: 41%;
+}
+
+.aRight{
+    position: absolute;
+    width: 37px;
+    height: 14px;
+    right: 17%;
+    top: 21%;
+}
+
+.aLeft{
+    position: absolute;
+    width: 37px;
+    height: 14px;
+    left: 19%;
+    top: 41%;
+}
+
+.aDown{
+    position: absolute;
+    width: 37px;
+    height: 14px;
+    right: 16%;
+    top: 53%;
+}

@@ -1,12 +1,14 @@
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
+import Body from './pages/Body/Body';
 
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar/>
-    </div>
+      <Body/>
+    </>
   );
 }
 
