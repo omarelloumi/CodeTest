@@ -11,6 +11,7 @@ import { styles } from "./styles";
 import { SmallNav } from "./smallNav/SmallNav";
 
 import './styles.css';
+import { LargeNav } from "./largeNav/LargeNav";
 
 
 const Navbar = () => {
@@ -42,6 +43,7 @@ const Navbar = () => {
             handleOpenNavMenu={handleOpenNavMenu}
             handleCloseNavMenu={handleCloseNavMenu}
           />
+          <LargeNav handleCloseNavMenu={handleCloseNavMenu} />
         </Toolbar>
       </Container>
     </AppBar>
