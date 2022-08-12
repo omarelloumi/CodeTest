@@ -50,7 +50,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
       content: "''",
     },
     "&:before": {
-      content: "'_____Switch to buy'",
+      content: "'-____ Swipe ____--to buy'",
     },
     opacity: 1,
     backgroundColor: theme.palette.mode === "dark" ? "#8796A5" : "#FFFFFF",
