@@ -7,7 +7,7 @@ import "./styles.css";
 import LineLeft from "./assets/LineLeft.svg";
 import LineRight from "./assets/LineRight.svg";
 import LineDown from "./assets/LineDown.svg";
-import Descriptor from '../../components/descriptor/Descriptor';
+import Descriptor from '../descriptor/Descriptor';
 
 const Description = () => {
   return (

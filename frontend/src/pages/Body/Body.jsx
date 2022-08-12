@@ -1,8 +1,10 @@
 import React from 'react'
-import Description from '../Description/Description'
+
 import Grid from "@mui/material/Grid";
-import Buttons from '../Buttons/Buttons';
-import Detail from '../Detail/Detail';
+
+import Description from '../../components/Description/Description'
+import Buttons from '../../components/Buttons/Buttons';
+import Detail from '../../components/Detail/Detail';
 
 const Body = () => {
   return (

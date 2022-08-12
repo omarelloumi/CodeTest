@@ -1,7 +1,7 @@
 import React from 'react'
 import Grid from "@mui/material/Grid";
 import { styles } from "./styles";
-import CustomSwitch from '../../components/switch/CustomSwitch';
+import CustomSwitch from '../switch/CustomSwitch';
 import Star from "./assets/Star.svg";
 import Heart from "./assets/Heart.svg";
 
