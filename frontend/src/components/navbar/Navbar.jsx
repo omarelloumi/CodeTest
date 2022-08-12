@@ -12,10 +12,12 @@ import { SmallNav } from "./smallNav/SmallNav";
 
 import './styles.css';
 import { LargeNav } from "./largeNav/LargeNav";
+import { UserAvatar } from "./userAvatar/UserAvatar";
 
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
+  const [anchorElUser, setAnchorElUser] = useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -23,6 +25,14 @@ const Navbar = () => {
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
+  };
+
+  const handleOpenUserMenu = (event) => {
+    setAnchorElUser(event.currentTarget);
+  };
+
+  const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
   };
 
   return (
@@ -44,6 +54,11 @@ const Navbar = () => {
             handleCloseNavMenu={handleCloseNavMenu}
           />
           <LargeNav handleCloseNavMenu={handleCloseNavMenu} />
+          <UserAvatar
+            handleOpenUserMenu={handleOpenUserMenu}
+            anchorElUser={anchorElUser}
+            handleCloseUserMenu={handleCloseUserMenu}
+          />
         </Toolbar>
       </Container>
     </AppBar>
