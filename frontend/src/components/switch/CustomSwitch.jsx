@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
-import Cart from '../assets/Cart.svg';
+import Cart from './assets/Cart.svg';
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
     width: 130,
@@ -65,7 +65,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
     
   }));
 
-export const CustomSwitch = () => {
+const CustomSwitch = () => {
   return (
     <>
       <FormGroup>
@@ -78,3 +78,5 @@ export const CustomSwitch = () => {
     
   )
 }
+
+export default CustomSwitch;
