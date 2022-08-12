@@ -1,15 +1,14 @@
-import React from 'react'
+import React from "react";
 
 import Grid from "@mui/material/Grid";
 
 import { styles } from "./styles";
 import WhiteStar from "./assets/WhiteStar.svg";
 
-
 const Review = () => {
   return (
     <>
-        <Grid container>
+      <Grid container>
         <Grid item xs={6} style={{ paddingLeft: 50 }}>
           <p style={styles.reviewTitle}>Reviews & Ratings</p>
         </Grid>
@@ -22,7 +21,7 @@ const Review = () => {
         </Grid>
       </Grid>
     </>
-  )
-}
+  );
+};
 
-export default Review
+export default Review;

@@ -10,10 +10,9 @@ import { styles } from "./styles";
 
 import { SmallNav } from "./smallNav/SmallNav";
 
-import './styles.css';
+import "./styles.css";
 import { LargeNav } from "./largeNav/LargeNav";
 import { UserAvatar } from "./userAvatar/UserAvatar";
-
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -36,7 +35,12 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar color="transparent" elevation={0} className="appBar" position="absolute">
+    <AppBar
+      color="transparent"
+      elevation={0}
+      className="appBar"
+      position="absolute"
+    >
       <Container maxWidth="xl" sx={styles.container}>
         <Toolbar disableGutters sx={styles.toolbar}>
           <Typography
