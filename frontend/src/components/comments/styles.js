@@ -1,11 +1,5 @@
 export const styles = {
-  reviewBox: {
-    border: "1px solid",
-    borderColor: "#C4C4C4",
-    margin: "0rem 3rem ",
-    height: "100%",
-  },
-
+  
   commentTitle: {
     paddingBot: 0,
     fontFamily: "Manrope",
@@ -26,8 +20,9 @@ export const styles = {
   },
   userAvatarDim: {
     position: "relative",
-    marginLeft: "20%",
-    marginRight: "40%",
+    marginLeft: "40%",
+    marginRight: "20%",
+    
     marginTop: "25%",
     marginBottom: "25%",
     height: "150",

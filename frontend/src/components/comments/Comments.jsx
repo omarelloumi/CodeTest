@@ -8,7 +8,7 @@ import User from "./assets/User.svg";
 const Comments = () => {
   return (
     <>
-      <Grid container style={styles.reviewBox}>
+      <Grid container>
         <Grid item xs={3}>
           <img src={User} alt="user" style={styles.userAvatarDim}></img>
         </Grid>
