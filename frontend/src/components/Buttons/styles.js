@@ -8,8 +8,9 @@ export const styles = {
     backgroundColor: "#FFFFFF",
   },
   img: {
-    height : '50px',
-    width : '50px',
-    margin : '20%'
+    display: "flex",
+    justifyContent: 'center',
+    margin: "50% auto",
+    width: "50%"
   },
 };
