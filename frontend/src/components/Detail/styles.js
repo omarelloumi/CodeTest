@@ -1,24 +1,24 @@
 export const styles = {
   detail: {
-    paddingTop: 50,
-    paddingLeft: 50,
+    paddingTop : '4%',
   },
   detailText: {
     fontFamily: "Manrope",
     fontStyle: "normal",
-    fontWeight: 400,
-    fontSize: 18,
+    fontWeight: '400',
+    fontSize: '36px',
     color: "#FFFFFF",
+    lineHeight: '50px'
   },
   description: {
-    paddingLeft: 50,
-    paddingRight: 50,
+    paddingTop : '2%',
   },
   descriptionText: {
     fontFamily: "Manrope",
     fontStyle: "normal",
-    fontWeight: 400,
-    fontSize: 13,
+    fontWeight: '400',
+    fontSize: '26px',
     color: "#FFFFFF",
+    lineHeight: '36px'
   },
 };

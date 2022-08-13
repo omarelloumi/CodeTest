@@ -1,14 +1,13 @@
 import * as React from "react";
 import { styled } from "@mui/material/styles";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
 import Cart from "./assets/Cart.svg";
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
-  width: 130,
-  height: 55,
+  width: '140px',
+  height: '70px',
   padding: 5,
+
 
   "& .MuiSwitch-switchBase": {
     margin: 0,
@@ -16,7 +15,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
     transform: "translateX(0px)",
     "&.Mui-checked": {
       color: "#fff",
-      transform: "translateX(70px)",
+      transform: "translateX(80px)",
       "& .MuiSwitch-thumb:before": {
         backgroundImage: `url(${Cart})`,
       },
@@ -29,8 +28,8 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
     },
   },
   "& .MuiSwitch-thumb": {
-    width: 55,
-    height: 55,
+    width: '60px',
+    height: '70px',
     "&:before": {
       content: "''",
       position: "absolute",
@@ -50,11 +49,11 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
       content: "''",
     },
     "&:before": {
-      content: "'-____ Swipe ____--to buy'",
+      content: "'_____- Swipe _____-  to buy'",
     },
     opacity: 1,
     backgroundColor: theme.palette.mode === "dark" ? "#8796A5" : "#FFFFFF",
-    borderRadius: 53,
+    borderRadius: 45,
   },
 }));
 
