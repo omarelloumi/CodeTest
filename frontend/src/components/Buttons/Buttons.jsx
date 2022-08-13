@@ -17,10 +17,10 @@ const Buttons = () => {
         <Grid item xs={2}></Grid>
 
         <Grid item xs={2} style={styles.heart}>
-          <img src={Heart} alt="Heart" style={styles.img} />
+          <a href="/"><img src={Heart} alt="" style={styles.img} /></a>
         </Grid>
         <Grid item xs={2} style={styles.heart}>
-          <img src={Star} alt="Heart" style={styles.img} />
+          <a href="/"><img src={Star} alt="" style={styles.img} /></a>
         </Grid>
       </Grid>
     </>
