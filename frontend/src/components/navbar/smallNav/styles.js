@@ -12,11 +12,11 @@ export const styles = {
   logoSmall: {
     marginLeft : '4.7%',
     height: "43px",
-    width: "'43'px",
+    width: "43px",
   },
   
   menuImg: {
-    height: "19px",
-    width: "24px",
+    height: "100%",
+    width: "100%",
   },
 };

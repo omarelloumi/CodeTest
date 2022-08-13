@@ -37,9 +37,11 @@ const Description = () => {
       />
 
       <Grid item style={styles.item}>
-        <p className="price">
-          $256<p className="taxes">plus taxes</p>
-        </p>
+        <span className="price">
+          $256 
+        </span>
+        <p><span className="taxes">plus taxes</span></p>
+        
       </Grid>
     </Grid>
   );

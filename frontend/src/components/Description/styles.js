@@ -3,44 +3,44 @@ import Image from "./assets/Item.svg";
 export const styles = {
   itemHeader: {
     backgroundImage: `url(${Image})`,
-    backgroundSize: "100% 100%",
-    backgroundPosition: "top",
+    backgroundSize: "100% 110%",
+    backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    width: 428,
-    height: 520,
+    width: "1768px", 
+    height: "1020px"
   },
   armorLeft: {
     position: "absolute",
-    left: "30%",
-    top: "37%",
+    left: "36.5%",
+    top: "24%",
   },
   lineLeft: {
     position: "absolute",
-    left: "26%",
-    top: "44%",
+    left: "34.5%",
+    top: "26.5%",
   },
   armorRight: {
     position: "absolute",
-    right: "30%",
-    top: "17%",
+    left: "54%",
+    top: "13%",
   },
   lineRight: {
     position: "absolute",
-    right: "26%",
-    top: "24%",
+    left: "60.5%",
+    top: "15.5%",
   },
   armorDown: {
     position: "absolute",
-    right: "10%",
-    top: "38%",
+    left: "80%",
+    top: "31%",
   },
   lineDown: {
     position: "absolute",
-    right: "20.5%",
-    top: "47%",
+    left: "85%",
+    top: "34%",
   },
   item: {
-    paddingBottom: "4%",
+    paddingBottom: "10%",
     paddingLeft: "10%",
   },
 };
