@@ -4,6 +4,7 @@ import { styles } from "./styles";
 import CustomSwitch from "../switch/CustomSwitch";
 import Star from "./assets/Star.svg";
 import Heart from "./assets/Heart.svg";
+import Box from "@mui/material/Box";
 
 const Buttons = () => {
   return (
@@ -13,14 +14,17 @@ const Buttons = () => {
           <CustomSwitch />
         </Grid>
 
-        <Grid item xs={2}></Grid>
-        <Grid item xs={2}></Grid>
-
-        <Grid item xs={2} style={styles.heart}>
-          <a href="/"><img src={Heart} alt="" style={styles.img} /></a>
+        <Grid item xs={4}></Grid>
+        <Grid item xs={1} style={styles.round}>
+        <a href="/">
+          <img src={Heart} alt="" style={styles.img} />
+        </a>
         </Grid>
-        <Grid item xs={2} style={styles.heart}>
-          <a href="/"><img src={Star} alt="" style={styles.img} /></a>
+        <Grid item xs={1}></Grid>
+        <Grid item xs={1} style={styles.round}>
+        <a href="/">
+          <img src={Star} alt="" style={styles.img} />
+        </a>
         </Grid>
       </Grid>
     </>

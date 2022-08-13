@@ -61,9 +61,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 const CustomSwitch = () => {
   return (
     <>
-      <FormGroup>
-        <FormControlLabel control={<MaterialUISwitch sx={{ m: 1 }} />} />
-      </FormGroup>
+    <MaterialUISwitch sx={{ m: '5%' }} />
     </>
   );
 };

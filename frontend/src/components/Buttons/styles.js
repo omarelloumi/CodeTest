@@ -1,15 +1,15 @@
 export const styles = {
   switch: {
-    paddingLeft: "10%",
+    paddingLeft: "5%",
   },
-  heart: {
-    padding: "1%",
-  },
-  img: {
+  round: {
+    
     borderRadius: "100%",
     backgroundColor: "#FFFFFF",
-    height: "20px",
-    width: "20px",
-    padding: "20%",
+  },
+  img: {
+    height : '50px',
+    width : '50px',
+    margin : '20%'
   },
 };
