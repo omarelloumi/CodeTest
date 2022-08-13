@@ -9,22 +9,21 @@ const Buttons = () => {
   return (
     <>
       <Grid container xs={12}>
-      <Grid item xs={1}></Grid>
-        <Grid item xs={2}  >
-          <CustomSwitch/>
+        <Grid item xs={1}></Grid>
+        <Grid item xs={2}>
+          <CustomSwitch />
         </Grid>
-
         <Grid item xs={5}></Grid>
         <Grid item xs={1} style={styles.round}>
-        <a href="/">
-          <img src={Heart} alt="" style={styles.img} />
-        </a>
+          <a href="/">
+            <img src={Heart} alt="" style={styles.img} />
+          </a>
         </Grid>
         <Grid item xs={1}></Grid>
         <Grid item xs={1} style={styles.round}>
-        <a href="/">
-          <img src={Star} alt="" style={styles.img} />
-        </a>
+          <a href="/">
+            <img src={Star} alt="" style={styles.img} />
+          </a>
         </Grid>
         <Grid item xs={1}></Grid>
       </Grid>

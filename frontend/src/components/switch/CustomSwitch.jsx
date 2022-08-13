@@ -4,10 +4,9 @@ import Switch from "@mui/material/Switch";
 import Cart from "./assets/Cart.svg";
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
-  width: '140px',
-  height: '70px',
+  width: "140px",
+  height: "70px",
   padding: 5,
-
 
   "& .MuiSwitch-switchBase": {
     margin: 0,
@@ -28,8 +27,8 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
     },
   },
   "& .MuiSwitch-thumb": {
-    width: '60px',
-    height: '70px',
+    width: "60px",
+    height: "70px",
     "&:before": {
       content: "''",
       position: "absolute",
@@ -60,7 +59,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 const CustomSwitch = () => {
   return (
     <>
-    <MaterialUISwitch sx={{ m: '5%' }} />
+      <MaterialUISwitch sx={{ m: "5%" }} />
     </>
   );
 };

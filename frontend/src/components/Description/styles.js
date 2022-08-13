@@ -6,8 +6,8 @@ export const styles = {
     backgroundSize: "100% 110%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    width: "1768px", 
-    height: "1020px"
+    width: "1768px",
+    height: "1020px",
   },
   armorLeft: {
     position: "absolute",

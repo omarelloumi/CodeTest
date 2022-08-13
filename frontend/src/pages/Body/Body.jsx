@@ -11,12 +11,22 @@ import Comments from "../../components/comments/Comments";
 const Body = () => {
   return (
     <>
-      <Grid container className="content">
-        <Description />
-        <Buttons />
-        <Detail />
-        <Review />
-        <Comments />
+      <Grid container justifyContent="space-between" alignItems="stretch">
+        <Grid item xs={12}>
+          <Description />
+        </Grid>
+        <Grid item xs={12}>
+          <Buttons />
+        </Grid>
+        <Grid item xs={12}>
+          <Detail />
+        </Grid>
+        <Grid item xs={12}>
+          <Review />
+        </Grid>
+        <Grid item xs={12}>
+          <Comments />
+        </Grid>
       </Grid>
     </>
   );

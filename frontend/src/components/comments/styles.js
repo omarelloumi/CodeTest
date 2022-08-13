@@ -1,31 +1,28 @@
 export const styles = {
-  
+  commentSection: {
+    border: "2px solid #C4C4C4",
+    margin: "1% 0%",
+    padding: "2% 0% 4%",
+  },
   commentTitle: {
-    paddingBot: 0,
     fontFamily: "Manrope",
     fontStyle: "normal",
     fontWeight: 400,
-    fontSize: 18,
+    fontSize: "40px",
     color: "#FFFFFF",
   },
-
   commentContent: {
-    paddingTop: 0,
-    paddingRight: "1.5rem",
     fontFamily: "Manrope",
     fontStyle: "normal",
     fontWeight: 400,
-    fontSize: 13,
+    fontSize: "30px",
     color: "#FFFFFF",
   },
   userAvatarDim: {
-    position: "relative",
-    marginLeft: "40%",
-    marginRight: "20%",
-    
-    marginTop: "25%",
-    marginBottom: "25%",
-    height: "150",
-    width: "150",
+    height: "70%",
+    display: "flex",
+    justifyContent: "center",
+    margin: "25% auto",
+    width: "70%",
   },
 };

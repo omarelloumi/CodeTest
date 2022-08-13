@@ -4,17 +4,16 @@ export const styles = {
     display: "flex",
   },
   menuSmall: {
-    display: "flex"
+    display: "flex",
   },
-  menuItem:{
-    display: { xs: 'block'}
+  menuItem: {
+    display: { xs: "block" },
   },
   logoSmall: {
-    marginLeft : '4.7%',
+    marginLeft: "4.7%",
     height: "86px",
     width: "86px",
   },
-  
   menuImg: {
     height: "38px",
     width: "50px",

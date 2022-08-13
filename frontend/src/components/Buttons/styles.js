@@ -1,12 +1,12 @@
 export const styles = {
-round: {
+  round: {
     borderRadius: "100%",
     backgroundColor: "#FFFFFF",
   },
   img: {
     display: "flex",
-    justifyContent: 'center',
+    justifyContent: "center",
     margin: "30% auto",
-    width: "50%"
+    width: "50%",
   },
 };

@@ -35,13 +35,11 @@ const Description = () => {
         linePos={styles.lineDown}
         styles={"aDown"}
       />
-
       <Grid item style={styles.item}>
-        <span className="price">
-          $256 
-        </span>
-        <p><span className="taxes">plus taxes</span></p>
-        
+        <span className="price">$256</span>
+        <p>
+          <span className="taxes">plus taxes</span>
+        </p>
       </Grid>
     </Grid>
   );

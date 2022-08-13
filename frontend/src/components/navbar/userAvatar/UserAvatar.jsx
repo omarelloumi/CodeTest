@@ -9,7 +9,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Typography from "@mui/material/Typography";
 
 import { styles } from "./styles";
-import User from './assets/User.svg'
+import User from "./assets/User.svg";
 
 export const UserAvatar = ({
   handleOpenUserMenu,
@@ -23,7 +23,7 @@ export const UserAvatar = ({
       <Box sx={styles.boxAvatar}>
         <Tooltip title="Open settings">
           <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-            <img src={User} alt=""  style={styles.avatar} />
+            <img src={User} alt="" style={styles.avatar} />
           </IconButton>
         </Tooltip>
         <Menu

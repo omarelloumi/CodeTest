@@ -34,20 +34,18 @@ const Navbar = () => {
       position="absolute"
       style={styles.appBar}
     >
-      
-        <Toolbar disableGutters>
-          <SmallNav
-            anchorElNav={anchorElNav}
-            handleOpenNavMenu={handleOpenNavMenu}
-            handleCloseNavMenu={handleCloseNavMenu}
-          />
-          <UserAvatar
-            handleOpenUserMenu={handleOpenUserMenu}
-            anchorElUser={anchorElUser}
-            handleCloseUserMenu={handleCloseUserMenu}
-          />
-        </Toolbar>
-      
+      <Toolbar disableGutters>
+        <SmallNav
+          anchorElNav={anchorElNav}
+          handleOpenNavMenu={handleOpenNavMenu}
+          handleCloseNavMenu={handleCloseNavMenu}
+        />
+        <UserAvatar
+          handleOpenUserMenu={handleOpenUserMenu}
+          anchorElUser={anchorElUser}
+          handleCloseUserMenu={handleCloseUserMenu}
+        />
+      </Toolbar>
     </AppBar>
   );
 };

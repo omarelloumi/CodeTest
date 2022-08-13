@@ -29,7 +29,7 @@ export const SmallNav = ({
           onClick={handleOpenNavMenu}
           color="inherit"
         >
-          <img src={MenuIcon} alt="menu" style={styles.menuImg}/>
+          <img src={MenuIcon} alt="menu" style={styles.menuImg} />
         </IconButton>
         <Menu
           id="menu-appbar"
