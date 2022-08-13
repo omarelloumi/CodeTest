@@ -28,9 +28,8 @@ export const SmallNav = ({
           aria-haspopup="true"
           onClick={handleOpenNavMenu}
           color="inherit"
-          sx={styles.menuButtonSmall}
         >
-          <img src={MenuIcon} alt="menu" />
+          <img src={MenuIcon} alt="menu" style={styles.menuImg}/>
         </IconButton>
         <Menu
           id="menu-appbar"
@@ -56,7 +55,7 @@ export const SmallNav = ({
             </MenuItem>
           ))}
         </Menu>
-        <img src={Logo} alt="logo" className={styles.logoSmall}></img>
+        <img src={Logo} alt="logo" style={styles.logoSmall}></img>
       </Box>
     </>
   );

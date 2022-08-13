@@ -1,27 +1,22 @@
 export const styles = {
   boxSmall: {
     flexGrow: 1,
-    display: {
-      xs: "flex",
-      md: "none",
-    },
+    display: "flex",
   },
   menuSmall: {
-    display: {
-      xs: "flex",
-      md: "none",
-    },
+    display: "flex"
   },
-
+  menuItem:{
+    display: { xs: 'block'}
+  },
   logoSmall: {
-    mx: "auto",
-    display: {
-      xs: "inline",
-      md: "none",
-    },
+    marginLeft : '4.7%',
+    height: "43px",
+    width: "'43'px",
   },
-  menuButtonSmall: {
-    pr: "5%",
-    py: "auto",
+  
+  menuImg: {
+    height: "19px",
+    width: "24px",
   },
 };

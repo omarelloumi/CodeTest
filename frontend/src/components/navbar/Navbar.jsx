@@ -1,18 +1,11 @@
+import React, { useState } from "react";
+
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
-
-import { useState } from "react";
-
-import Logo from "./assets/Logo.svg";
-import { styles } from "./styles";
 
 import { SmallNav } from "./smallNav/SmallNav";
-
-import "./styles.css";
-import { LargeNav } from "./largeNav/LargeNav";
 import { UserAvatar } from "./userAvatar/UserAvatar";
+import { styles } from "./styles";
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -38,33 +31,23 @@ const Navbar = () => {
     <AppBar
       color="transparent"
       elevation={0}
-      className="appBar"
       position="absolute"
+      style={styles.appBar}
     >
-      <Container maxWidth="xl" sx={styles.container}>
-        <Toolbar disableGutters sx={styles.toolbar}>
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={styles.logoLarge}
-          >
-            <img src={Logo} alt="logo" className={styles.logoImgLarge}></img>
-          </Typography>
+      
+        <Toolbar disableGutters>
           <SmallNav
             anchorElNav={anchorElNav}
             handleOpenNavMenu={handleOpenNavMenu}
             handleCloseNavMenu={handleCloseNavMenu}
           />
-          <LargeNav handleCloseNavMenu={handleCloseNavMenu} />
           <UserAvatar
             handleOpenUserMenu={handleOpenUserMenu}
             anchorElUser={anchorElUser}
             handleCloseUserMenu={handleCloseUserMenu}
           />
         </Toolbar>
-      </Container>
+      
     </AppBar>
   );
 };
