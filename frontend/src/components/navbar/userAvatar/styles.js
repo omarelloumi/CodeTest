@@ -4,7 +4,8 @@ export const styles = {
   },
   boxAvatar: { flexGrow: 0 },
   menuAvatar: { mt: "45px" },
-  avatarColor: {
-    color: "#E5DDDD",
+  avatar: {
+    height: "38px",
+    width: "38px",
   },
 };

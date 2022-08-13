@@ -4,12 +4,12 @@ import { useSelector } from "react-redux";
 import Box from "@mui/material/Box";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
-import PersonIcon from "@mui/icons-material/Person";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Typography from "@mui/material/Typography";
 
 import { styles } from "./styles";
+import User from './assets/User.svg'
 
 export const UserAvatar = ({
   handleOpenUserMenu,
@@ -23,7 +23,7 @@ export const UserAvatar = ({
       <Box sx={styles.boxAvatar}>
         <Tooltip title="Open settings">
           <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-            <PersonIcon fontSize="large" sx={styles.avatarColor} />
+            <img src={User} alt=""  style={styles.avatar} />
           </IconButton>
         </Tooltip>
         <Menu

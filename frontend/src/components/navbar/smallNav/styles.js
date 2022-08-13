@@ -11,12 +11,12 @@ export const styles = {
   },
   logoSmall: {
     marginLeft : '4.7%',
-    height: "43px",
-    width: "43px",
+    height: "86px",
+    width: "86px",
   },
   
   menuImg: {
-    height: "100%",
-    width: "100%",
+    height: "38px",
+    width: "50px",
   },
 };
