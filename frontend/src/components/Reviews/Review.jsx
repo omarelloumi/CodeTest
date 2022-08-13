@@ -9,16 +9,16 @@ const Review = () => {
   return (
     <>
       <Grid container>
-        <Grid item xs={6} style={{ paddingLeft: 50 }}>
+        <Grid item xs={1}></Grid>
+        <Grid item xs={5} style={styles.review} >
           <p style={styles.reviewTitle}>Reviews & Ratings</p>
         </Grid>
-        <Grid item xs={6} style={styles.reviews}>
-          <img src={WhiteStar} alt="star" />
-          <img src={WhiteStar} alt="star" />
-          <img src={WhiteStar} alt="star" />
-          <img src={WhiteStar} alt="star" />
-          <img src={WhiteStar} alt="star" />
+        <Grid item xs={5} style={styles.reviewStars}>
+          {Array(5).fill(null).map((_, index) => (
+            <img key={index} src={WhiteStar} alt="star" style={styles.start}/>
+          ))}
         </Grid>
+        <Grid item xs={1}></Grid>
       </Grid>
     </>
   );

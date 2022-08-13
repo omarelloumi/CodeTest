@@ -1,12 +1,19 @@
 export const styles = {
-  reviews: {
-    padding: "1.3rem 0",
+  reviewStars: {
+    paddingTop: "5%",
+  },
+  start : {
+    height : "40px",
+    width : "40px"
+  },
+  review: {
+    paddingTop : '2%',
   },
   reviewTitle: {
     fontFamily: "Manrope",
     fontStyle: "normal",
     fontWeight: 400,
-    fontSize: 18,
+    fontSize: '25px',
     color: "#FFFFFF",
   },
 };
