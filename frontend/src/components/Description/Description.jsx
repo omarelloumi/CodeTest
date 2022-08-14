@@ -22,18 +22,21 @@ const Description = () => {
         lineSrc={LineRight}
         linePos={styles.lineRight}
         styles={"aRight"}
+        title={"Armor"}
       />
       <Descriptor
         plusPos={styles.armorLeft}
         lineSrc={LineLeft}
         linePos={styles.lineLeft}
         styles={"aLeft"}
+        title={"Armor"}
       />
       <Descriptor
         plusPos={styles.armorDown}
         lineSrc={LineDown}
         linePos={styles.lineDown}
         styles={"aDown"}
+        title={"Katana"}
       />
       <Grid item style={styles.item}>
         <span className="price">$256</span>

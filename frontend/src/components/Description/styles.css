@@ -1,5 +1,5 @@
 h5{
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -9,14 +9,14 @@ h5{
 .price{
     width: 71px;
     height: 65px;
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
     color: #FFFFFF;
 }
 .taxes{
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     color: #FFFFFF;
     line-height: 5px;
     font-size: 20px;

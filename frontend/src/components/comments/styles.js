@@ -5,14 +5,14 @@ export const styles = {
     padding: "2% 0% 4%",
   },
   commentTitle: {
-    fontFamily: "Manrope",
+    fontFamily: "Manrope, sans-serif",
     fontStyle: "normal",
     fontWeight: 400,
     fontSize: "40px",
     color: "#FFFFFF",
   },
   commentContent: {
-    fontFamily: "Manrope",
+    fontFamily: "Manrope, sans-serif",
     fontStyle: "normal",
     fontWeight: 400,
     fontSize: "30px",

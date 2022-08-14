@@ -1,6 +1,6 @@
 export const styles = {
   menuItem: {
-    fontFamily: "Manrope",
+    fontFamily: "Manrope, sans-serif",
   },
   boxAvatar: { flexGrow: 0 },
   menuAvatar: { mt: "45px" },

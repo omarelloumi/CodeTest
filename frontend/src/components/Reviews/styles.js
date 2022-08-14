@@ -10,7 +10,7 @@ export const styles = {
     paddingTop : '2%',
   },
   reviewTitle: {
-    fontFamily: "Manrope",
+    fontFamily: "Manrope, sans-serif",
     fontStyle: "normal",
     fontWeight: 400,
     fontSize: '25px',

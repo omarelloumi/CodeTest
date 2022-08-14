@@ -3,10 +3,10 @@ export const styles = {
     paddingTop: "2%",
   },
   detailText: {
-    fontFamily: "Manrope",
+    fontFamily: "Manrope, sans-serif",
     fontStyle: "normal",
     fontWeight: "400",
-    fontSize: "25px",
+    fontSize: "38px",
     color: "#FFFFFF",
     lineHeight: "50px",
   },
@@ -14,11 +14,11 @@ export const styles = {
     paddingTop: "1%",
   },
   descriptionText: {
-    fontFamily: "Manrope",
+    fontFamily: "Manrope, sans-serif",
     fontStyle: "normal",
     fontWeight: "400",
-    fontSize: "15px",
+    fontSize: "0.875rem",
     color: "#FFFFFF",
-    lineHeight: "36px",
+    lineHeight: "2.25rem",
   },
 };
