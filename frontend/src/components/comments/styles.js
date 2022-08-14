@@ -1,7 +1,7 @@
 export const styles = {
   commentSection: {
     border: "2px solid #C4C4C4",
-    margin: "1% 0%",
+    margin: "2% 0% 4%",
     padding: "2% 0% 4%",
   },
   commentTitle: {
